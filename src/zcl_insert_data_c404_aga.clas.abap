@@ -13,17 +13,17 @@ ENDCLASS.
 CLASS zcl_insert_data_c404_aga IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
 
-    dATA: it_customers tYPE TABLE OF zrent_customers.
+    dATA: it_customers TYPE TABLE OF zrent_customers.
 
     it_customers = vaLUE #(
-     ( doc_id = '10001' matricula = '12345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '20001' matricula = '22345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '30001' matricula = '32345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '40001' matricula = '42345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '50001' matricula = '52345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '60001' matricula = '62345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '70001' matricula = '72345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
-     ( doc_id = '80001' matricula = '82345' nombre = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '10001' matricula = '12345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '20001' matricula = '22345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '30001' matricula = '32345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '40001' matricula = '42345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '50001' matricula = '52345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '60001' matricula = '62345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '70001' matricula = '72345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
+     ( doc_id = '80001' matricula = '82345' nombres = 'Arturo' apellidos = 'Aguilar' email = 'arturo@yahoo.com' cntr_type = 'AB' )
                           ).
 
 *      -- Borra los datos de tabla base datos
